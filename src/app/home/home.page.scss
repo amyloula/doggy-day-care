@@ -1,0 +1,16 @@
+.steps, .testimonials {
+    margin: 1rem;
+    text-align: center;
+    &__wrapper {
+        display: flex;
+        min-height: 1rem;
+        justify-content: center;
+    }
+}
+
+.steps {
+    .step {
+        flex: auto;
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,26 @@
+@import "variables";
+
+:host {
+  flex: auto;
+  min-height: 5rem;
+  border-top: $theme-border-top;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 15px 50px;
+  border-radius: $theme-border-radius;
+  box-shadow: $theme-box-shadow;
+  text-align: left;
+}
+
+.testimonial {
+  display: flex;
+  &__image {
+    border-radius: 50%; 
+    align-self: center;
+    margin: 0 1rem;
+  }
+  &__text {
+    flex: auto;
+    align-self: center;
+  }
+}

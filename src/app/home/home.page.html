@@ -1,0 +1,43 @@
+<app-search-bar></app-search-bar>
+
+<div class="steps">
+  <h3>How it works</h3>
+<div class="steps__wrapper">
+  <div class="step">
+    <img src="http://via.placeholder.com/150x150" alt="">
+    <h4>Step 1</h4>
+    <p>
+      Lorem ipsum dolor sit amet, duo at possim timeam placerat. Usu omnis
+      iisque adolescens eu, cu tantas lobortis sed, utinam animal at nam. His
+      exerci.
+    </p>
+  </div>
+  <div class="step">
+    <img src="http://via.placeholder.com/150x150" alt="">
+    <h4>Step 2</h4>
+    <p>
+      Lorem ipsum dolor sit amet, duo at possim timeam placerat. Usu omnis
+      iisque adolescens eu, cu tantas lobortis sed, utinam animal at nam. His
+      exerci.
+    </p>
+  </div>
+  <div class="step">
+    <img src="http://via.placeholder.com/150x150" alt="">
+    <h4>Step 3</h4>
+    <p>
+      Lorem ipsum dolor sit amet, duo at possim timeam placerat. Usu omnis
+      iisque adolescens eu, cu tantas lobortis sed, utinam animal at nam. His
+      exerci.
+    </p>
+  </div>
+</div>
+</div>
+<div class="testimonials">
+  <h3>Testimonials</h3>
+  <div class="testimonials__wrapper">
+    <app-testimonial
+      *ngFor="let testimonial of testimonials"
+      [data]="testimonial"
+    ></app-testimonial>
+  </div>
+</div>
